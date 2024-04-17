@@ -1,0 +1,14 @@
+C:\Users\rzaza\source\repos\CD\CD\bin\Debug\net6.0\CD.exe
+C:\Users\rzaza\source\repos\CD\CD\bin\Debug\net6.0\CD.deps.json
+C:\Users\rzaza\source\repos\CD\CD\bin\Debug\net6.0\CD.runtimeconfig.json
+C:\Users\rzaza\source\repos\CD\CD\bin\Debug\net6.0\CD.dll
+C:\Users\rzaza\source\repos\CD\CD\bin\Debug\net6.0\CD.pdb
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\CD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\CD.AssemblyInfoInputs.cache
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\CD.AssemblyInfo.cs
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\CD.csproj.CoreCompileInputs.cache
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\CD.dll
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\refint\CD.dll
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\CD.pdb
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\CD.genruntimeconfig.cache
+C:\Users\rzaza\source\repos\CD\CD\obj\Debug\net6.0\ref\CD.dll
