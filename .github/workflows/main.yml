@@ -1,4 +1,4 @@
-name: CD Pipeline
+name: CI/CD Pipeline
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '5.0.x'
+        dotnet-version: '6.0.x'
 
     - name: Restore dependencies
       run: dotnet restore
@@ -30,8 +30,8 @@ jobs:
     - name: Publish artifact
       uses: actions/upload-artifact@v2
       with:
-        name: calculator-artifact
-        path: bin/Release/net5.0/
+        name: app-artifact
+        path: bin/Release/net6.0/
 
     - name: Deploy
       if: always()
@@ -41,5 +41,6 @@ jobs:
         username: ${{ secrets.SERVER_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          cd /var/www/calculator
-          unzip -o ~/calculator-artifact.zip
+          cd /var/www/app
+          unzip -o ~/app-artifact.zip
+
